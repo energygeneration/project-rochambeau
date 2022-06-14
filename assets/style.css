@@ -1,0 +1,19 @@
+body {
+    background-color: blue;
+    margin: 0 auto;
+}
+form {
+    padding: 200px;
+    text-align: center;
+}
+form input {
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+p {
+    color: #ffffff;
+    font-size: 30px;
+}
+.call {
+    display: inline;
+}
