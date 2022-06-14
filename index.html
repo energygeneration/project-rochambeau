@@ -9,14 +9,21 @@
     <title>Document</title>
 </head>
 <body>
-    <form>
-        <div class="call">
-            <input type="tel" placeholder="Call">
-        </div>
-        <div class="email">
-            <input type="email" placeholder="Email">
-        </div>
-        <input type="submit">
+    <header>
+          <nav class="navbar" style="background-color: #e3f2fd;">
+            <div class="container-fluid">
+              <div class="container">
+                <span class="navbar-text ">
+                  <h1>TVA Calculator</h1>
+                </span>
+              </div>
+              </div>
+          </nav>
+    </header>
+    <form class="container-fluid">
+        <input type="text" id ="ht" placeholder="Ecrivez votre montant">
+			  <p onclick="tva()"> Calculer TVA </p>
+			  <h2 id="prix"></h2>
     </form>
     <!-- Exécuter un script provenant d'un fichier javascript -->
     <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
